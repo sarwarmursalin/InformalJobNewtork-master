@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".adding_new_job">
+
+        <EditText
+            android:id="@+id/job_title"
+            android:hint="Job Title"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp" />
+        <EditText
+            android:id="@+id/job_description"
+            android:hint="Job Description"
+            android:paddingLeft="20dp"
+            android:layout_margin="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/skill_required"
+            android:hint="Skill Required"
+            android:paddingLeft="20dp"
+            android:layout_margin="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/address"
+            android:hint="Address"
+            android:paddingLeft="20dp"
+            android:layout_margin="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/job_providers_name"
+            android:hint="Job Provider's Name"
+            android:paddingLeft="20dp"
+            android:layout_margin="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/job_submit_btn"
+            android:text="Submit"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
